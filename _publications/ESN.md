@@ -1,0 +1,14 @@
+---
+title: "Variability of echo state network prediction horizon for partially observed dynamical systems"
+collection: publications
+category: manuscripts
+permalink: /publication/ESN
+excerpt: 'Study of dynamical systems using partial state observation is an important problem due to its applicability to many real-world systems. We address the problem by studying an echo state network (ESN) framework with partial state input with partial or full state output. Application to the Lorenz system and Chua oscillator (both numerically simulated and experimental systems) demonstrate the effectiveness of our method. We show that the ESN, as an autonomous dynamical system, is capable of making short-term predictions up to a few Lyapunov times. However, the prediction horizon has high variability depending on the initial condition—an aspect that we explore in detail using the distribution of the prediction horizon. Further, using a variety of statistical metrics to compare the long-term dynamics of the ESN predictions with numerically simulated or experimental dynamics and observed similar results, we show that the ESN can effectively learn the systems dynamics even when trained with noisy numerical or experimental data sets. Thus, we demonstrate the potential of ESNs to serve as cheap surrogate models for simulating the dynamics of systems where complete observations are unavailable.'
+date: 2023-12-20
+venue: 'Phys. Rev. E'
+slidesurl: 
+paperurl: 'https://journals.aps.org/pre/abstract/10.1103/PhysRevE.108.064209'
+bibtexurl: 
+citation: 'Mahata, Ajit, Reetish Padhi, and Amit Apte. "Variability of echo state network prediction horizon for partially observed dynamical systems." Physical Review E 108.6 (2023): 064209.'
+---
+Study of dynamical systems using partial state observation is an important problem due to its applicability to many real-world systems. We address the problem by studying an echo state network (ESN) framework with partial state input with partial or full state output. Application to the Lorenz system and Chua oscillator (both numerically simulated and experimental systems) demonstrate the effectiveness of our method. We show that the ESN, as an autonomous dynamical system, is capable of making short-term predictions up to a few Lyapunov times. However, the prediction horizon has high variability depending on the initial condition—an aspect that we explore in detail using the distribution of the prediction horizon. Further, using a variety of statistical metrics to compare the long-term dynamics of the ESN predictions with numerically simulated or experimental dynamics and observed similar results, we show that the ESN can effectively learn the systems dynamics even when trained with noisy numerical or experimental data sets. Thus, we demonstrate the potential of ESNs to serve as cheap surrogate models for simulating the dynamics of systems where complete observations are unavailable.
