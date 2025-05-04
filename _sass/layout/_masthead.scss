@@ -4,7 +4,7 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: var(--global-nav-bag-color);//var(--global-bg-color);
   height: fit-content;
   top: 0;
   width: 100%;
@@ -27,7 +27,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.5em 1em;
+    padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -55,7 +55,7 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-nav-bag-color);
   display: block;
   list-style-type: none;
   white-space: nowrap;
